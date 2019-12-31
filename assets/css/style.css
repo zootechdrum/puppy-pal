@@ -27,5 +27,9 @@ body {
     text-align: center; }
 
 .heading-primary {
-  background-color: #c76267;
+  background-color: rgba(199, 98, 103, 0.7);
   border-radius: 10%; }
+
+.section-about {
+  padding: 25rem;
+  margin-top: -20vh; }
