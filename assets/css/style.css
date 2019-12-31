@@ -30,6 +30,10 @@ body {
   background-color: rgba(199, 98, 103, 0.7);
   border-radius: 10%; }
 
+.title {
+  transform: rotate(-90deg);
+  position: absolute; }
+
 .section-about {
-  padding: 25rem;
-  margin-top: -20vh; }
+  padding: 15rem;
+  margin-top: -10vh; }
