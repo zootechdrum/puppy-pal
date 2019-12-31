@@ -1,0 +1,12 @@
+//Where I put all of our resets or any other very
+//gerneral styling that will apply to almost every element
+
+body{
+    margin: 0;
+    padding: 0;
+}
+// The number 62.5% comes from the fact that a browser's default font-size is 16px. We want to make it so that 1rem = 10px. 
+// That way we can easily use them as an alternative. 10/16 = 62.
+html{
+    font-size: 62.5%;
+}
