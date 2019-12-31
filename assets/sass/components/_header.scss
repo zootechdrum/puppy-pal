@@ -2,4 +2,22 @@
     background-image: url("../images/dog-pic-2.jpg");
     background-size: cover;
     height:95vh;
+    position:relative;
+
+
+    &__text-box{
+        font-size:2rem;
+        position:absolute;
+        top:40%;
+        left:80%;
+        transform:translate(-50%,-50%);
+        text-align:center;
+    }
+
+}
+
+.heading-primary{
+    background-color: $color-primary-light;
+    border-radius: 10%;
+    
 }
