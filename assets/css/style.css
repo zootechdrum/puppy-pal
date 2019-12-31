@@ -5,3 +5,8 @@ body {
 
 html {
   font-size: 62.5%; }
+
+.header {
+  background-image: url("../images/dog-pic-2.jpg");
+  background-size: cover;
+  height: 95vh; }
