@@ -15,7 +15,14 @@ body {
 
 .paragraph {
   display: flex;
-  justify-content: center; }
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: left;
+  letter-spacing: 0.6rem;
+  margin-left: 200px;
+  background-color: #662161;
+  color: #fff;
+  width: 900px; }
 
 .header {
   background-image: url("../images/dog-pic-2.jpg");
@@ -36,7 +43,10 @@ body {
 
 .title {
   transform: rotate(-90deg);
-  position: absolute; }
+  position: absolute;
+  margin-top: 80px;
+  letter-spacing: 0.5rem;
+  color: #fff; }
 
 .section-about {
   padding: 15rem;

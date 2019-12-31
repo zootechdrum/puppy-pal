@@ -7,5 +7,12 @@ body{
 
 .paragraph {
     display:flex;
-    justify-content: center;
+    padding:10px;
+    border-radius: 5px;
+    justify-content: left;
+    letter-spacing: 0.6rem;
+    margin-left:200px;
+    background-color: $color-primary-dark;
+    color: #fff;
+    width:900px;
 }
