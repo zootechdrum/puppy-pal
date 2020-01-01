@@ -3,6 +3,8 @@ html {
   padding: 0; }
 
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   background: #ff52a3; }
@@ -53,6 +55,10 @@ body {
 .content__header {
   background: #c76267;
   border-radius: 5px; }
+
+footer {
+  margin-top: auto;
+  background: brown; }
 
 .section-about {
   padding: 15rem;
