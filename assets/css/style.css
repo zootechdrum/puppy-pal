@@ -57,8 +57,9 @@ body {
   border-radius: 5px; }
 
 footer {
+  display: flex;
   margin-top: auto;
-  background: brown; }
+  background: #662161; }
 
 .section-about {
   padding: 15rem;
