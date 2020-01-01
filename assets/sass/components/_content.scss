@@ -1,0 +1,23 @@
+.content{
+    &__title{
+            text-align: center;
+            transform: rotate(-90deg);
+            margin-top:80px;
+            letter-spacing: 0.5rem;
+            color:#fff;
+    }
+    &__paragraph {
+        display:flex;
+        padding:10px;
+        border-radius: 5px;
+        justify-content: right;
+        letter-spacing: 0.6rem;
+        background-color: $color-primary-dark;
+        color: #fff;
+        width:900px;
+    }
+    &__header {
+        background: $color-primary-light;
+        border-radius: 5px;
+    }
+}

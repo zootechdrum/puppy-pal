@@ -13,16 +13,6 @@ body {
   font-size: 16px;
   line-height: 1.7; }
 
-.paragraph {
-  display: flex;
-  padding: 10px;
-  border-radius: 5px;
-  justify-content: right;
-  letter-spacing: 0.6rem;
-  background-color: #630718;
-  color: #fff;
-  width: 900px; }
-
 .header {
   background-image: url("../images/dog-pic-2.jpg");
   background-size: cover;
@@ -43,12 +33,26 @@ body {
 .content-header {
   background: #c76267; }
 
-.title {
+.content__title {
   text-align: center;
   transform: rotate(-90deg);
   margin-top: 80px;
   letter-spacing: 0.5rem;
   color: #fff; }
+
+.content__paragraph {
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: right;
+  letter-spacing: 0.6rem;
+  background-color: #630718;
+  color: #fff;
+  width: 900px; }
+
+.content__header {
+  background: #c76267;
+  border-radius: 5px; }
 
 .section-about {
   padding: 15rem;
