@@ -17,10 +17,9 @@ body {
   display: flex;
   padding: 10px;
   border-radius: 5px;
-  justify-content: left;
+  justify-content: right;
   letter-spacing: 0.6rem;
-  margin-left: 200px;
-  background-color: #662161;
+  background-color: #630718;
   color: #fff;
   width: 900px; }
 
@@ -41,9 +40,12 @@ body {
   background-color: rgba(199, 98, 103, 0.7);
   border-radius: 10%; }
 
+.content-header {
+  background: #c76267; }
+
 .title {
+  text-align: center;
   transform: rotate(-90deg);
-  position: absolute;
   margin-top: 80px;
   letter-spacing: 0.5rem;
   color: #fff; }
@@ -51,4 +53,5 @@ body {
 .section-about {
   padding: 15rem;
   margin-top: -10vh;
-  position: relative; }
+  position: relative;
+  display: flex; }
