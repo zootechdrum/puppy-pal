@@ -1,5 +1,13 @@
-footer {
+.footer {
     display: flex;
     margin-top:auto;
     background: $color-secondary-dark;
+    padding: 2rem 0;
+    font-size: 1.4rem;
+    align-items:center;
+    justify-content: center;
+
+    &__text{
+        letter-spacing: 4rem;
+    }
 }

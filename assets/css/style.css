@@ -13,7 +13,8 @@ body {
   font-family: 'Inria Serif', serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.7; }
+  line-height: 1.7;
+  color: #eee; }
 
 .header {
   background-image: url("../images/dog-pic-2.jpg");
@@ -35,31 +36,39 @@ body {
 .content-header {
   background: #c76267; }
 
-.content__title {
+.content__header {
+  display: flex;
+  justify-content: center;
   text-align: center;
+  background: #c76267;
+  border-radius: 5px 0 0 5px;
+  z-index: 0; }
+
+.content__title {
   transform: rotate(-90deg);
-  margin-top: 80px;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.7rem;
   color: #fff; }
 
 .content__paragraph {
   display: flex;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0;
   justify-content: right;
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.3rem;
   background-color: #630718;
   color: #fff;
   width: 900px; }
 
-.content__header {
-  background: #c76267;
-  border-radius: 5px; }
-
-footer {
+.footer {
   display: flex;
   margin-top: auto;
-  background: #662161; }
+  background: #662161;
+  padding: 2rem 0;
+  font-size: 1.4rem;
+  align-items: center;
+  justify-content: center; }
+  .footer__text {
+    letter-spacing: 4rem; }
 
 .section-about {
   padding: 15rem;

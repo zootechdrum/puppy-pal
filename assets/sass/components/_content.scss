@@ -1,23 +1,27 @@
 .content{
+
+    &__header{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background: $color-primary-light;
+        border-radius: 5px 0 0 5px;
+        z-index: 0;
+    }
     &__title{
-            text-align: center;
+
             transform: rotate(-90deg);
-            margin-top:80px;
-            letter-spacing: 0.5rem;
+            letter-spacing: 0.7rem;
             color:#fff;
     }
     &__paragraph {
         display:flex;
         padding:10px;
-        border-radius: 5px;
+        border-radius: 0 5px 5px 0;
         justify-content: right;
-        letter-spacing: 0.6rem;
+        letter-spacing: 0.3rem;
         background-color: $color-primary-dark;
         color: #fff;
         width:900px;
-    }
-    &__header {
-        background: $color-primary-light;
-        border-radius: 5px;
     }
 }
