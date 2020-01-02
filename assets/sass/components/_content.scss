@@ -1,6 +1,12 @@
 .content{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top:15px;
 
     &__header{
+        flex-wrap: nowrap;
+        align-items: center;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -9,7 +15,8 @@
         z-index: 0;
     }
     &__title{
-
+        min-width: 130px;
+            max-width: 100px;
             transform: rotate(-90deg);
             letter-spacing: 0.7rem;
             color:#fff;
@@ -22,6 +29,6 @@
         letter-spacing: 0.3rem;
         background-color: $color-primary-dark;
         color: #fff;
-        width:900px;
+        width:760px;
     }
 }
